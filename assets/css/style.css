@@ -13,8 +13,65 @@
 }
 html {
     font-size: 62.5%;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
-.header {
-    
+header {
+  width: 100%;
+}
+nav {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+}
+nav img {
+  width: 2rem;
+  height: 2rem;
+}
+nav img.logo {
+    width: 5rem;
+    height: 5rem;
+    margin-left: 30px;
+}
+.portada {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 320px;
+    padding: 20%;
+    font-size: 1.5rem;
+    background-image: url('../img/hamburgesa-portada.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+.portada h1 {
+    background-color: var(--light-pink);
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: bold;
+}
+.portada p {
+    background-color: var(--ligth-gray);
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+.portada button {
+    background-color: var(--red);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    padding-left: 40px;
+    padding-right: 40px;
 }
